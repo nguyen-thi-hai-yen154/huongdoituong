@@ -9,6 +9,7 @@ import com.example.employee.ManageEmployee;
 
 import Hotel.MgrTotalCustomer;
 import QLHocSinhPT.QLHocSinh;
+import TinhKeThua.QlXe;
 
 @SpringBootApplication
 public class JavaHuongDoiTuongApplication {
@@ -32,12 +33,15 @@ public class JavaHuongDoiTuongApplication {
 //		mgr.outPutAllCustomer(totalCustomer);
 //		mgr.emptyRoom(totalCustomer);
 //		mgr.searchNameCustomer();
-		QLHocSinh qlhs = new QLHocSinh();
-		int sum = 3;
-		qlhs.inPutAllHocSinh(sum);
-		qlhs.outPutAllHocSinh(sum);
-		qlhs.serchAddress(sum);
-		
+//		QLHocSinh qlhs = new QLHocSinh();
+//		int sum = 3;
+//		qlhs.inPutAllHocSinh(sum);
+//		qlhs.outPutAllHocSinh(sum);
+//		qlhs.serchAddress(sum);
+//		
+		QlXe qlXe = new QlXe();
+		qlXe.nhapDanhSachXe();
+		qlXe.xuatDanhSachXe();
 	}
 
 }
