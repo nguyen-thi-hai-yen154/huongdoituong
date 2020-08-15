@@ -67,14 +67,14 @@ public class QlXe {
 		for (int i = 0; i < soLuongNoiThanh; i++) {
 			ChuyenXeNoiThanh chuyenXeNoiThanh = new ChuyenXeNoiThanh();
 			chuyenXeNoiThanh.chuyenXeNoiThanh();
-			doanhThuNoi += chuyenXeNoiThanh.getDoangThu();
+			doanhThuNoi += chuyenXeNoiThanh.getDoanhThu();
 			listDsXeNoiThanh.add(chuyenXeNoiThanh);
 		}
 		System.out.println("Nhap DS thong tin so xe ngoai thanh");
 		for (int i = 0; i < soLuongNgoaiThanh; i++) {
 			ChuyenXeNgoaiThanh chuyenXeNgoaiThanh = new ChuyenXeNgoaiThanh();
 			chuyenXeNgoaiThanh.chuyenXeNgoaiThanh();
-			doanhThuNgoai += chuyenXeNgoaiThanh.getDoangThu();
+			doanhThuNgoai += chuyenXeNgoaiThanh.getDoanhThu();
 			listDsXeNgoaiThanh.add(chuyenXeNgoaiThanh);
 		}
 		setTongDoanhThuXeNoiThanh(doanhThuNoi);

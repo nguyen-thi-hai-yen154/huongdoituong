@@ -39,11 +39,11 @@ public class ChuyenXe {
 		this.soXe = soXe;
 	}
 
-	public Float getDoangThu() {
+	public Float getDoanhThu() {
 		return doanhThu;
 	}
 
-	public void setDoangThu(Float doangThu) {
+	public void setDoanhThu(Float doangThu) {
 		this.doanhThu = doangThu;
 	}
 
@@ -60,11 +60,11 @@ public class ChuyenXe {
 		setSoXe(soXe);
 		System.out.println("Nhap vao doanh thu ");
 		Float doanhThu = scanner.nextFloat();
-		setDoangThu(doanhThu);
+		setDoanhThu(doanhThu);
 	}
 
 	public String toString() {
-		return "Ma so chuyen xe la " + getMsSoCHuyenXe() + " Ten KH " + getHoTen() + "So xe KH di " + getSoXe()	+ "Doanh thu cua xe " + getDoangThu();
+		return "Ma so chuyen xe la " + getMsSoCHuyenXe() + " Ten KH " + getHoTen() + "So xe KH di " + getSoXe()	+ "Doanh thu cua xe " + getDoanhThu();
 	}
 
 }
