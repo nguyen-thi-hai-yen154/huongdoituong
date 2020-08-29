@@ -4,62 +4,73 @@
 	<title> Modern Business </title>
 <!--	<link rel="stylesheet" type="text/css" href="styles.css"/> -->
  <style type="text/css">
-/*p{ 
+/*p{
 	height: 120px;
     width: 400px;
 }*/
 
+
+
 .row {
-  float: left;
+  /*float: left;*/
  /* margin-left: 50px;*/
  /* display: table;*/
- /* clear: both;*/
+  clear: both;
+  margin: auto;
+  width: 67%;
 
 }
-.column {	
-	  float: left;
-	  height: 116px;
-    width: 210px;
-  	margin: 20px;
-    padding: 60px;
+.column {
+	float: left;
+    /*height: 250px;*/
+    width: 320px;
+    margin: 20px;
     border: 1px solid #ccc;
 
 }
-.card-header{
-	/*background: red;*/
-	 margin-top: -67px;
-	 border-bottom: 1px solid rgba(0,0,0,.125);
-	 height: 20px;
-	 width: 272px;
 
+.card{
+	 height: 20px;
+	 width: 100%;
+	 padding-bottom: 60px;
+}
+
+
+.card-header{
+	background: #dedada;
+    padding: 5px 0px 5px 10px;
+}
+
+.card-body{
+    margin: 0px 10px;
 }
 
 .card-footer {
-
-	  border-top: 2px solid rgba(0,0,0,.125);
     color: #fff;
-    /*background-color: #007bff;
-    border-color: #007bff;*/
     height: 20px;
-    width: 270px;
-    margin-top: 157px;
+    width: 115px;
+    margin : 220px 0px 20px 10px;
     border: 1px solid #ccc;
+    text-align: center;
+    padding-bottom: 6px;
 }
 
-.btn-primary {
-    color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
 }
-
 
  </style>
 
 
 </head>
-<body>
+<body >
 
-	<div style="text-align: center;">
+  <div class="row">
+
+    <div style="text-align: center;">
         <h3>Second Slide</h3>
         <p>This is a description for the second slide.</p>
     </div>
@@ -68,48 +79,53 @@
     	<h1>Welcome to Modern Business</h1>
     </div>
 
-  <div class="row">
+  <!-- Begin Column thu 1 -->
   	<div class="column">
-      <div>
+      <div class = "card">
     		<div class="card-header">
     			<h4 >Card Title</h4>
     		</div>
     		<div class="card-body">
-    			<h5 >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</h5>
+    			<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+    		</div>
+      </div>
+  	  <div class="card-footer">
+  			<a href="#" class="btn btn-primary">Learn More</a>
+  	 </div>
+  	</div>
+	<!-- END Column thu 1 -->
+
+	<!-- BEGIN Column thu 2 -->
+  	<div class="column">
+      <div class = "card">
+    		<div class="card-header">
+    			<h4 >Card Title</h4>
+    		</div>
+    		<div class="card-body">
+    			<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
     		</div>
       </div>
   		<div class="card-footer">
   			<a href="#" class="btn btn-primary">Learn More</a>
   		</div>
   	</div>
+  	<!-- END Column thu 2 -->
 
+	<!-- BEGIN Column thu 3 -->
   	<div class="column">
-      <div>
-    		<div class="card-header">
-    			<h4 >Card Title</h4>
-    		</div>
-    		<div class="card-body">
-    			<h5 >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</h5>
-    		</div>
-      </div>
-  		<div class="card-footer">
-  			<a href="#" class="btn btn-primary">Learn More</a>
-  		</div> 		
-  	</div>
-
-  	<div class="column">
-      <div>
+      <div class = "card">
     		<div class="card-header">
     			<h4>Card Title</h4>
     		</div>
-    		<div class="card-body"> 
-    			<h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</h5>
+    		<div class="card-body">
+    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
     		</div>
       </div>
   		<div class="card-footer">
   			<a href="#" class="btn btn-primary">Learn More</a>
-  		</div> 		
+  		</div>
   	</div>
+	<!-- END Column thu 3 -->
 
   </div>
 
